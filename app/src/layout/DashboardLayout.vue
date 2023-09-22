@@ -8,16 +8,29 @@
       </sidebar-link>
       <sidebar-link to="/admin/cliente">
         <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Cliente</p>
+        <p>Clientes</p>
       </sidebar-link>
       <sidebar-link to="/admin/animal">
         <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Animal</p>
+        <p>Animais</p>
       </sidebar-link>
       <sidebar-link to="/admin/funcionario">
         <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Funcionario</p>
+        <p>Funcionarios</p>
       </sidebar-link>
+      <sidebar-link to="/admin/agendamentos">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>Agendamentos</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/produtos">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>Produtos</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/vendas">
+        <i class="nc-icon nc-chart-pie-35"></i>
+        <p>Vendas</p>
+      </sidebar-link>
+      
       <sidebar-link to="/admin/user">
         <i class="nc-icon nc-circle-09"></i>
         <p>User Profile</p>
