@@ -2,9 +2,9 @@
   <div class="wrapper">
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/admin/overview">
+      <sidebar-link to="/admin/home">
         <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Dashboard</p>
+        <p>Home</p>
       </sidebar-link>
       <sidebar-link to="/admin/cliente">
         <i class="nc-icon nc-chart-pie-35"></i>
@@ -18,15 +18,15 @@
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Funcionarios</p>
       </sidebar-link>
-      <sidebar-link to="/admin/agendamentos">
+      <sidebar-link to="/admin/agendamento">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Agendamentos</p>
       </sidebar-link>
-      <sidebar-link to="/admin/produtos">
+      <sidebar-link to="/admin/produto">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Produtos</p>
       </sidebar-link>
-      <sidebar-link to="/admin/vendas">
+      <sidebar-link to="/admin/venda">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Vendas</p>
       </sidebar-link>
@@ -56,13 +56,7 @@
         <p>Notifications</p>
       </sidebar-link>
 
-      <template slot="bottom-links">
-        <sidebar-link class="active"
-                      to="/admin/upgrade">
-          <i class="nc-icon nc-alien-33"></i>
-          <p>Upgrade to PRO</p>
-        </sidebar-link>
-      </template>
+      
     </side-bar>
     <div class="main-panel">
       <top-navbar></top-navbar>

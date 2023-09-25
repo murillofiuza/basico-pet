@@ -3,7 +3,7 @@ import DashboardLayout from '../layout/DashboardLayout.vue'
 import NotFound from '../pages/NotFoundPage.vue'
 
 // Admin pages
-import Overview from 'src/pages/Overview.vue'
+import Home from 'src/pages/Home.vue'
 import UserProfile from 'src/pages/UserProfile.vue'
 import TableList from 'src/pages/TableList.vue'
 import Typography from 'src/pages/Typography.vue'
@@ -11,31 +11,55 @@ import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
-import Cliente from 'src/pages/Cliente'
-import Animal from 'src/pages/Animal'
-import Funcionario from 'src/pages/Funcionario'
+import Cliente from 'src/pages/Cliente/index'
+  import CreateCliente from 'src/pages/Cliente/create'
+  import EditCliente from 'src/pages/Cliente/edit'
+  import ShowCliente from 'src/pages/Cliente/show'
+  
+import Animal from 'src/pages/Animal/index'
+import Funcionario from 'src/pages/Funcionario/index'
+import Venda from 'src/pages/Venda/index'
+import Produto from 'src/pages/Produto/index'
+import Agendamento from 'src/pages/Agendamento'
 
 const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/overview'
+    redirect: '/admin/home'
   },
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/overview',
+    redirect: '/admin/home',
     children: [
       {
-        path: 'overview',
-        name: 'Overview',
-        component: Overview
+        path: 'home',
+        name: 'Home',
+        component: Home
       },
       {
         path: 'cliente',
         name: 'Cliente',
         component: Cliente
       },
+      /**SUB PAGES DE CLIENTES**/
+          {
+            path: 'create-cliente',
+            name: 'CreateCliente',
+            component: CreateCliente
+          },
+          {
+            path: 'edit-cliente',
+            name: 'EditCliente',
+            component: EditCliente
+          },
+          {
+            path: 'show-cliente',
+            name: 'ShowCliente',
+            component: ShowCliente
+          },
+          
       {
         path: 'animal',
         name: 'Animal',
@@ -46,6 +70,23 @@ const routes = [
         name: 'Funcionario',
         component: Funcionario
       },
+      {
+        path: 'agendamento',
+        name: 'Agendamento',
+        component: Agendamento
+      },
+      {
+        path: 'produto',
+        name: 'Produto',
+        component: Produto
+      },
+      {
+        path: 'venda',
+        name: 'Venda',
+        component: Venda
+      },
+      
+      
       {
         path: 'user',
         name: 'User',

@@ -7,7 +7,7 @@ const SidebarStore = {
     {
       name: 'Dashboard',
       icon: 'ti-panel',
-      path: '/admin/overview'
+      path: '/admin/home'
     }
   ],
   displaySidebar (value) {

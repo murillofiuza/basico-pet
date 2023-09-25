@@ -7,8 +7,8 @@
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
-              <h4 class="card-title">Lista de Cliente</h4>
-              <p class="card-category">Clientes Cadastrados</p>
+              <h4 class="card-title">Lista de Animais</h4>
+              <p class="card-category">Pets de Clientes Cadastrados</p>
             </template>
             <l-table class="table-hover table-striped"
                      :columns="table1.columns"
@@ -18,7 +18,8 @@
 
         </div>
 
-  
+
+    
 
       </div>
     </div>
@@ -27,20 +28,41 @@
 <script>
   import LTable from 'src/components/Table.vue'
   import Card from 'src/components/Cards/Card.vue'
-  const tableColumns = ['Id', 'Nome', 'Contato', 'Email', 'Ação']
+  const tableColumns = ['Id', 'Name', 'Salary', 'Country', 'City']
   const tableData = [{
     id: 1,
-    nome: 'Dakota Rice',
-    contato: '$36.738',
-    email: 'Niger',
-    acao: 'Oud-Turnhout'
+    name: 'Dakota Rice',
+    salary: '$36.738',
+    country: 'Niger',
+    city: 'Oud-Turnhout'
   },
   {
     id: 2,
-    nome: 'Minerva Hooper',
-    contato: '$23,789',
-    email: 'Curaçao',
-    acao: 'Sinaai-Waas'
+    name: 'Minerva Hooper',
+    salary: '$23,789',
+    country: 'Curaçao',
+    city: 'Sinaai-Waas'
+  },
+  {
+    id: 3,
+    name: 'Sage Rodriguez',
+    salary: '$56,142',
+    country: 'Netherlands',
+    city: 'Baileux'
+  },
+  {
+    id: 4,
+    name: 'Philip Chaney',
+    salary: '$38,735',
+    country: 'Korea, South',
+    city: 'Overland Park'
+  },
+  {
+    id: 5,
+    name: 'Doris Greene',
+    salary: '$63,542',
+    country: 'Malawi',
+    city: 'Feldkirchen in Kärnten'
   }]
   export default {
     components: {
