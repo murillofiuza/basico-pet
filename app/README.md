@@ -1,4 +1,4 @@
-# Título do projeto
+# Sistema PEtShop Baisco Pet
 
 O Sistema Basico Pet é um projeto que está sendo criado a nivel de testar, explorar novos recursos do laravel e Vuejs, e aprender mais. É um desafio para poder expandir os conhecimentos e  pratica desenvolver um modelo de sistema com codigo limpo.
 
