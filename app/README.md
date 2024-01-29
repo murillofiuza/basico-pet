@@ -1,15 +1,15 @@
-# [Vue Light Bootstrap Dashboard](http://vuejs.creative-tim.com/vue-light-bootstrap-dashboard) [![version][version-badge]][changelog] [![license][license-badge]][license]
+# Título do projeto
 
-> Admin dashboard based on light bootstrap dashboard UI template + vue-router
+O Sistema Basico Pet é um projeto que está sendo criado a nivel de testar, explorar novos recursos do laravel e Vuejs, e aprender mais. É um desafio para poder expandir os conhecimentos e  pratica desenvolver um modelo de sistema com codigo limpo.
 
-This project is a vue version of [Light bootstrap dashboard](https://www.creative-tim.com/product/light-bootstrap-dashboard)
-designed for vue js. The dashboard includes Bootstrap 4, vue-router, chartist, google-maps and several other plugins/components.
+### 📋 Pré-requisitos
 
-Check the [Live Demo here](http://vuejs.creative-tim.com/vue-light-bootstrap-dashboard).
+* PHP8.2
+* Composer2
+* nodeJs
+* mysql
 
-![](public/Dashboard.PNG)
-
-## :rocket: Getting started
+### 🔧 Instalação
 
 Vue Light Bootstrap Dashboard is built on top of Bootstrap 4, Vuejs and Vue-router. To get started do the following steps:
 
@@ -18,7 +18,6 @@ Vue Light Bootstrap Dashboard is built on top of Bootstrap 4, Vuejs and Vue-rout
 3. Type `npm install` in the source folder where `package.json` is located
 4. Type `npm run dev` to start the development server
 
-The repo uses [vue-cli](https://github.com/vuejs/vue-cli) scaffolding which takes care of the development setup with webpack and all the necessary modern tools to make web development faster and easier.
 
 ## [Documentation](https://demos.creative-tim.com/vue-light-bootstrap-dashboard/documentation/#/buttons)
 
@@ -49,9 +48,17 @@ The repo uses [vue-cli](https://github.com/vuejs/vue-cli) scaffolding which take
 - `npm install` or `yarn install`
 - Please don't use jQuery or jQuery based plugins since there are many pure Vue alternatives
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-[changelog]: ./CHANGELOG.md
-[license]: ./LICENSE.md
-[version-badge]: https://img.shields.io/badge/version-2.1.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+## 📦 Implantação
+
+Sistema em construção.
+
+## 🛠️ Construído com
+
+* [Laravel 10]- O framework web Backend
+* [Bootstrap vue VUEJS3] - Frontend
+* [PHP 8.2] - Versão de linguagem
+* [Mysql] - SGBD
+
+
+
